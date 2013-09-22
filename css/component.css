@@ -15,7 +15,7 @@ body,
 
 .st-content {
 	overflow-y: scroll;
-	background: #f3efe0;
+	background-image:url('../images/bg100_3.png');
 }
 
 .st-content,
