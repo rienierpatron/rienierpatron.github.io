@@ -147,10 +147,12 @@ a:hover {
 
 .bl-icon-works:before {
 	content: "\e001";
+	color:black;
 }
 
 .bl-icon-blog:before {
 	content: "\e002";
+	color:black;
 }
 
 .bl-icon-contact:before {
@@ -448,4 +450,13 @@ section.bl-expand .bl-icon-close {
 	.bl-content > ul li {
 		width: 40%;
 	}
+}
+
+.black-box{
+	background:black !important;
+}
+
+.white-box{
+	background:white !important;
+	color:black;
 }
