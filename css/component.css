@@ -126,6 +126,8 @@ a:hover {
 .bl-icon {
 	font-family: 'icomoon';
 	speak: none;
+	margin-top:-10px;
+	margin-right:-10px;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -147,12 +149,12 @@ a:hover {
 
 .bl-icon-works:before {
 	content: "\e001";
-	color:black;
+	color:#020F2E;
 }
 
 .bl-icon-blog:before {
 	content: "\e002";
-	color:black;
+	color:#020F2E;
 }
 
 .bl-icon-contact:before {
@@ -171,6 +173,7 @@ a:hover {
 
 .bl-icon-close:before {
 	content: "\e005";
+	font-size:12px;
 }
 
 .bl-content, 
@@ -178,7 +181,7 @@ div.bl-panel-items > div > div {
 	opacity: 0;
 	pointer-events: none;
 	position: absolute;
-	top: 60px;
+	top: 30px;
 	left: 30px;
 	right: 30px;
 	bottom: 30px;
@@ -453,10 +456,10 @@ section.bl-expand .bl-icon-close {
 }
 
 .black-box{
-	background:black !important;
+	background:#020F2E !important;
 }
 
 .white-box{
 	background:white !important;
-	color:black;
+	color:#020F2E;
 }
