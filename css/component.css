@@ -456,10 +456,10 @@ section.bl-expand .bl-icon-close {
 }
 
 .black-box{
-	background:#020F2E !important;
+	background:url('../images/bg-black.png')!important;
 }
 
 .white-box{
-	background:white !important;
-	color:#020F2E;
+	background:url('../images/bg-white.png')!important;
+	color:black;
 }
