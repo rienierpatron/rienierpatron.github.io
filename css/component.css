@@ -463,3 +463,36 @@ section.bl-expand .bl-icon-close {
 	background:url('../images/bg-white.png')!important;
 	color:black;
 }
+
+#black-content::-webkit-scrollbar {
+      width: 3px;
+      padding-left:40px !important;
+}
+#black-content::-webkit-scrollbar-track {
+      background-color: white;
+} /* the new scrollbar will have a flat appearance with the set background color */
+#black-content::-webkit-scrollbar-thumb {
+      background-color: black;
+} /* this will style the thumb, ignoring the track */
+#black-content::-webkit-scrollbar-button {
+      background-color: white;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+#black-content::-webkit-scrollbar-corner {
+      background-color: black;
+}
+
+#white-content::-webkit-scrollbar {
+      width: 3px;
+}
+#white-content::-webkit-scrollbar-track {
+      background-color: black;
+} /* the new scrollbar will have a flat appearance with the set background color */
+#white-content::-webkit-scrollbar-thumb {
+      background-color: grey;
+} /* this will style the thumb, ignoring the track */
+#white-content::-webkit-scrollbar-button {
+      background-color: black;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+#white-content::-webkit-scrollbar-corner {
+      background-color: grey;
+}

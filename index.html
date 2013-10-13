@@ -19,21 +19,36 @@
 				<section class="black-box">
 					<div class="bl-box black-box">
 						<h2 class="menu-box-tag"><i class="glyphicon glyphicon-user"></i><br/>Hi There!</h2>
-
 					</div>
-					<div class="bl-content black-box">
-						
-						<div class="row">
-							<div class="col-md-4">
-								<img src="images/profile.jpg" class="img-thumbnail img-responsive" style="width:200px">
+					<div class="bl-content" id="black-content">
+						<div class="row" style="width:98% !important">
+							<div class="col-md-3 hidden-md">
+								<center><img src="images/me.jpg" class="img-circle img-thumbnail img-responsive" style="width:250px"></center>
 							</div>
-							<div class="col-md-4"></div>
+							<div class="col-md-3 visible-md" style="border:2px solid white;">
+								<img src="images/me.jpg" class="img-circle img-thumbnail img-responsive" style="width:250px">
+							</div>
+							<div class="col-md-9">
+								<div class="visible-lg">
+									<h2>
+										ABOUT ME
+									</h2>	
+								</div>
+								<div class="hidden-lg">
+									<center>
+										<h2>
+											ABOUT ME
+										</h2>
+									</center>	
+								</div>
+								<blockquote>
+									<p class="lead" style="font-size:20px">
+										
+									</p>
+								</blockquote>
+							</div>
+							
 						</div>
-						<p>This responsive layout is based on an initial grid of four boxes. Once a box is clicked, it gets resized to fullscreen and the other boxes scale down and fade out. In the work section we experiment with another transition which is to show a panel by making it appear from the bottom while scaling the current one down. To see it in action, open the work section and click on one of the portfolio items and navigate through them.</p>
-						<p>
-							<a href="http://tympanus.net/Development/ResponsiveMultiLevelMenu/"><strong>&laquo; Previous Demo</strong></a> |
-							<a href="http://tympanus.net/codrops/?p=14783"><strong>Back to the Codrops Article</strong></a>
-						</p>
 					</div>
 					
 					<span class="bl-icon bl-icon glyphicon glyphicon-remove bl-icon-close"></span>
@@ -43,7 +58,7 @@
 					<div class="bl-box white-box">
 						<h2 class="menu-box-tag"><i class="glyphicon glyphicon-folder-open"></i><br/>My Works</h2>
 					</div>
-					<div class="bl-content white-box">
+					<div class="bl-content" id="white-content">
 						<h2>My Works</h2>
 						<p>Mung bean maize dandelion sea lettuce catsear bunya nuts ricebean tatsoi caulie horseradish pea.</p>
 						<ul id="bl-work-items">
@@ -58,10 +73,10 @@
 				</section>
 				<section class="white-box">
 					<div class="bl-box white-box">
-						<h2 class="menu-box-tag"><i class="glyphicon glyphicon-file"></i><br/>On My Mind</h2>
+						<h2 class="menu-box-tag"><i class="glyphicon glyphicon-file"></i><br/>In My Mind</h2>
 					</div>
-					<div class="bl-content white-box">
-						<h2>My Musings</h2>
+					<div class="bl-content" id="white-content">
+						<h2>My Blogs</h2>
 						<article>
 							<h3>Being a Freelance Designer</h3>
 							<p>Stumptown helvetica cardigan, odd future seitan tattooed flannel. Kale chips direct trade cray beard. 8-bit etsy butcher post-ironic blog lo-fi mcsweeney's, sustainable pickled umami flexitarian DIY ethical plaid trust fund. Wolf cred organic, terry richardson aesthetic four loko occupy vegan chillwave readymade deep... <a href="#">Read more</a></p>
@@ -93,7 +108,7 @@
 					<div class="bl-box black-box">
 						<h2 class="menu-box-tag"><i class="glyphicon glyphicon-envelope"></i><br/>Contact</h2>
 					</div>
-					<div class="bl-content black-box">
+					<div class="bl-content" id="black-content">
 						<h2>Get in touch</h2>
 						<p>Pinterest semiotics single-origin coffee craft beer thundercats irony, tumblr bushwick intelligentsia pickled. Narwhal mustache godard master cleanse street art, occupy ugh selfies put a bird on it cray salvia four loko gluten-free shoreditch. Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
 					</div>
@@ -137,7 +152,8 @@
 			</div>
 		</div><!-- /container -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-				<script src="js/modernizr.custom.js"></script>
+		<script src="js/tracker.js"></script>
+		<script src="js/modernizr.custom.js"></script>
 		<script src="js/boxlayout.js"></script>
 		<script>
 			$(function() {
