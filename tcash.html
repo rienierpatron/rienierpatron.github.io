@@ -13,7 +13,7 @@
       $.ajax({
         url: 'http://192.168.254.17/tcash/tcash_api/oauth/accesstoken',
         type: 'POST',
-        {client_id: '61B8222CBCB84EAA', client_secret: 'client_secret', username: 'rienierpatron@gmail.com', password: '143445254', grant_type: 'password'},
+        data: {client_id: '61B8222CBCB84EAA', client_secret: 'client_secret', username: 'rienierpatron@gmail.com', password: '143445254', grant_type: 'password'},
         success: function(data) {
           $('.result').html(data);
         }
