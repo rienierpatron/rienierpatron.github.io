@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="js/jquery-2.1.0.min.js"></script>
+  </head>
+  <body>
+    <div class="output_box">
+      <pre class="data">
+      </pre>
+    </div>
+  </body>
+  <script>
+    $(document).ready(function(){
+      $.ajax({
+        url: 'http://192.168.254.17/tcash/tcash_api/oauth/accesstoken',
+        type: 'POST',
+        {client_id: '61B8222CBCB84EAA', client_secret: 'client_secret', username: 'rienierpatron@gmail.com', password: '143445254', grant_type: 'password'},
+        success: function(data) {
+          $('.result').html(data);
+        }
+      });
+    })
+  </script>
+</html>
